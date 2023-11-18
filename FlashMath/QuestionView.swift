@@ -24,7 +24,7 @@ struct QuestionView: View {
         VStack {
             Spacer()
 
-            Text("Question 1")
+            Text("Question \(viewModel.questionNumber)")
                 .fontDesign(.rounded)
                 .fontWeight(.black)
 
