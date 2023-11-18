@@ -2,19 +2,53 @@
   "sourceLanguage" : "en",
   "strings" : {
     "End Game" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spiel beenden"
+          }
+        }
+      }
     },
     "FLASH MATH" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "FLASH MATH"
+          }
+        }
+      }
     },
     "Game over!" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spiel vorbei!"
+          }
+        }
+      }
     },
     "Highest?" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Höchste Zahl?"
+          }
+        }
+      }
     },
     "How many %llds in %lld?" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wieviele %1$lld in %2$lld?"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
@@ -24,25 +58,74 @@
       }
     },
     "Last Score: %lld" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Letztes Ergebnis: %lld"
+          }
+        }
+      }
     },
     "Lowest?" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niedrigste Zahl?"
+          }
+        }
+      }
     },
     "Multiple of %lld?" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vielfaches von %lld?"
+          }
+        }
+      }
     },
     "New Game" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neues Spiel"
+          }
+        }
+      }
     },
     "Play Again" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nochmals spielen"
+          }
+        }
+      }
     },
-    "Question 1" : {
-
+    "Question %lld" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frage %lld"
+          }
+        }
+      }
     },
     "You scored: %lld." : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du hast %lld Punkte erreicht."
+          }
+        }
+      }
     }
   },
   "version" : "1.0"
