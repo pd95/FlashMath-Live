@@ -17,7 +17,7 @@ struct MultipleQuestion: Question {
         let multiple = Int.random(in: 2...12)
 
         correctAnswer = Int.random(in: 1...12) * multiple
-        questionText = "Multiple of \(multiple)?"
+        questionText = String(localized: "Multiple of \(multiple)?")
 
         allAnswers = (0...3).map { i in
             if multiple == 2 {

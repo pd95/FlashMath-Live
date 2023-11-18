@@ -20,7 +20,7 @@ struct HowManyMultiplesQuestion: Question {
         let adjustment = Int.random(in: 0...multiple - 1)
         let targetNumber = correctAnswer * multiple + adjustment
 
-        questionText = "How many \(multiple)s in \(targetNumber)?"
+        questionText = String(localized: "How many \(multiple)s in \(targetNumber)?")
         allAnswers = Array(numbers.prefix(4))
         allAnswers.append(correctAnswer)
         allAnswers.shuffle()

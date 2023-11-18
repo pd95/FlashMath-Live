@@ -38,10 +38,10 @@ struct HighestLowestQuestion: Question {
         }
 
         if Bool.random() {
-            questionText = "Highest?"
+            questionText = String(localized: "Highest?")
             correctAnswer = allAnswers.max() ?? 0
         } else {
-            questionText = "Lowest?"
+            questionText = String(localized: "Lowest?")
             correctAnswer = allAnswers.min() ?? 0
         }
     }

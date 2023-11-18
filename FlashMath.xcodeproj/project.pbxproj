@@ -22,6 +22,7 @@
 		179964362B0937AA00034ED7 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179964352B0937AA00034ED7 /* Question.swift */; };
 		179964382B09392400034ED7 /* HighestLowestQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179964372B09392400034ED7 /* HighestLowestQuestion.swift */; };
 		1799643A2B093A5900034ED7 /* OperationQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179964392B093A5900034ED7 /* OperationQuestion.swift */; };
+		1799643C2B093E9800034ED7 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 1799643B2B093E9800034ED7 /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		179964352B0937AA00034ED7 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		179964372B09392400034ED7 /* HighestLowestQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighestLowestQuestion.swift; sourceTree = "<group>"; };
 		179964392B093A5900034ED7 /* OperationQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationQuestion.swift; sourceTree = "<group>"; };
+		1799643B2B093E9800034ED7 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				179964292B0929E600034ED7 /* ViewModel.swift */,
 				1799642B2B092C4500034ED7 /* PlayingView.swift */,
 				1799641B2B0926E400034ED7 /* Assets.xcassets */,
+				1799643B2B093E9800034ED7 /* Localizable.xcstrings */,
 				1799641D2B0926E400034ED7 /* Preview Content */,
 			);
 			path = FlashMath;
@@ -160,6 +163,7 @@
 			files = (
 				1799641F2B0926E400034ED7 /* Preview Assets.xcassets in Resources */,
 				1799641C2B0926E400034ED7 /* Assets.xcassets in Resources */,
+				1799643C2B093E9800034ED7 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

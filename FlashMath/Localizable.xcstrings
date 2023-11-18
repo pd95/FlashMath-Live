@@ -1,0 +1,49 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "End Game" : {
+
+    },
+    "FLASH MATH" : {
+
+    },
+    "Game over!" : {
+
+    },
+    "Highest?" : {
+
+    },
+    "How many %llds in %lld?" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "How many %1$llds in %2$lld?"
+          }
+        }
+      }
+    },
+    "Last Score: %lld" : {
+
+    },
+    "Lowest?" : {
+
+    },
+    "Multiple of %lld?" : {
+
+    },
+    "New Game" : {
+
+    },
+    "Play Again" : {
+
+    },
+    "Question 1" : {
+
+    },
+    "You scored: %lld." : {
+
+    }
+  },
+  "version" : "1.0"
+}
