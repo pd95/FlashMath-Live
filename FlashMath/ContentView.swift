@@ -8,17 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    @Environment(ViewModel.self) var viewModel
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        switch viewModel.playState {
+        case .menu:
+            MenuView()
+        case .playing:
+            PlayingView()
+        case .gameOver:
+            GameOverView()
         }
-        .padding()
     }
 }
 
 #Preview {
     ContentView()
+        .environment(ViewModel())
 }

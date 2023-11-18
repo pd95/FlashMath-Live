@@ -11,6 +11,17 @@
 		1799641A2B0926E300034ED7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179964192B0926E300034ED7 /* ContentView.swift */; };
 		1799641C2B0926E400034ED7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1799641B2B0926E400034ED7 /* Assets.xcassets */; };
 		1799641F2B0926E400034ED7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1799641E2B0926E400034ED7 /* Preview Assets.xcassets */; };
+		179964262B09277B00034ED7 /* HowManyMultiplesQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179964252B09277B00034ED7 /* HowManyMultiplesQuestion.swift */; };
+		179964282B09289C00034ED7 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179964272B09289C00034ED7 /* QuestionView.swift */; };
+		1799642A2B0929E600034ED7 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179964292B0929E600034ED7 /* ViewModel.swift */; };
+		1799642C2B092C4500034ED7 /* PlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1799642B2B092C4500034ED7 /* PlayingView.swift */; };
+		1799642E2B092D0B00034ED7 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1799642D2B092D0B00034ED7 /* Styles.swift */; };
+		179964302B09332500034ED7 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1799642F2B09332500034ED7 /* MenuView.swift */; };
+		179964322B09338800034ED7 /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179964312B09338800034ED7 /* GameOverView.swift */; };
+		179964342B09369700034ED7 /* MultipleQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179964332B09369700034ED7 /* MultipleQuestion.swift */; };
+		179964362B0937AA00034ED7 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179964352B0937AA00034ED7 /* Question.swift */; };
+		179964382B09392400034ED7 /* HighestLowestQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179964372B09392400034ED7 /* HighestLowestQuestion.swift */; };
+		1799643A2B093A5900034ED7 /* OperationQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179964392B093A5900034ED7 /* OperationQuestion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,17 @@
 		179964192B0926E300034ED7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1799641B2B0926E400034ED7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1799641E2B0926E400034ED7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		179964252B09277B00034ED7 /* HowManyMultiplesQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowManyMultiplesQuestion.swift; sourceTree = "<group>"; };
+		179964272B09289C00034ED7 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		179964292B0929E600034ED7 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		1799642B2B092C4500034ED7 /* PlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingView.swift; sourceTree = "<group>"; };
+		1799642D2B092D0B00034ED7 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		1799642F2B09332500034ED7 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		179964312B09338800034ED7 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
+		179964332B09369700034ED7 /* MultipleQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleQuestion.swift; sourceTree = "<group>"; };
+		179964352B0937AA00034ED7 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		179964372B09392400034ED7 /* HighestLowestQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighestLowestQuestion.swift; sourceTree = "<group>"; };
+		179964392B093A5900034ED7 /* OperationQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationQuestion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +75,17 @@
 			children = (
 				179964172B0926E300034ED7 /* FlashMathApp.swift */,
 				179964192B0926E300034ED7 /* ContentView.swift */,
+				1799642D2B092D0B00034ED7 /* Styles.swift */,
+				179964352B0937AA00034ED7 /* Question.swift */,
+				179964252B09277B00034ED7 /* HowManyMultiplesQuestion.swift */,
+				179964332B09369700034ED7 /* MultipleQuestion.swift */,
+				179964372B09392400034ED7 /* HighestLowestQuestion.swift */,
+				179964392B093A5900034ED7 /* OperationQuestion.swift */,
+				179964272B09289C00034ED7 /* QuestionView.swift */,
+				1799642F2B09332500034ED7 /* MenuView.swift */,
+				179964312B09338800034ED7 /* GameOverView.swift */,
+				179964292B0929E600034ED7 /* ViewModel.swift */,
+				1799642B2B092C4500034ED7 /* PlayingView.swift */,
 				1799641B2B0926E400034ED7 /* Assets.xcassets */,
 				1799641D2B0926E400034ED7 /* Preview Content */,
 			);
@@ -137,7 +170,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1799642A2B0929E600034ED7 /* ViewModel.swift in Sources */,
+				179964302B09332500034ED7 /* MenuView.swift in Sources */,
+				1799642E2B092D0B00034ED7 /* Styles.swift in Sources */,
+				179964282B09289C00034ED7 /* QuestionView.swift in Sources */,
 				1799641A2B0926E300034ED7 /* ContentView.swift in Sources */,
+				1799642C2B092C4500034ED7 /* PlayingView.swift in Sources */,
+				179964262B09277B00034ED7 /* HowManyMultiplesQuestion.swift in Sources */,
+				179964342B09369700034ED7 /* MultipleQuestion.swift in Sources */,
+				179964382B09392400034ED7 /* HighestLowestQuestion.swift in Sources */,
+				179964322B09338800034ED7 /* GameOverView.swift in Sources */,
+				1799643A2B093A5900034ED7 /* OperationQuestion.swift in Sources */,
+				179964362B0937AA00034ED7 /* Question.swift in Sources */,
 				179964182B0926E300034ED7 /* FlashMathApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -180,6 +224,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = P8CC95REUG;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -243,6 +288,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = P8CC95REUG;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
