@@ -9,6 +9,7 @@ import SwiftUI
 
 struct QuestionView: View {
     @Environment(ViewModel.self) var viewModel
+    @Environment(\.scenePhase) var scenePhase
 
     let colors: [Color] = [.purple, .blue, .green, .pink, .orange].shuffled()
 
@@ -62,10 +63,12 @@ struct QuestionView: View {
             }
         }
         .onReceive(timer) { time in
-            timeUsed += 1 / 30
+            if scenePhase == .active {
+                timeUsed += 1 / 30
 
-            if timeUsed >= viewModel.timeAllowed {
-                viewModel.gameOver()
+                if timeUsed >= viewModel.timeAllowed {
+                    viewModel.gameOver()
+                }
             }
         }
         .transition(.push(from: .trailing))
