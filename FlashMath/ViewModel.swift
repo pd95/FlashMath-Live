@@ -76,6 +76,7 @@ class ViewModel {
 
     func setLevel(_ newLevel: ExperienceLevel) {
         level = newLevel
+        UserDefaults.standard.set(level.rawValue, forKey: "ExperienceLevel")
         timeAllowed = level.timeAllowed
         playState = .menu
     }
