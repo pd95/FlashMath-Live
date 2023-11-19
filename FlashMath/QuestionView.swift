@@ -44,6 +44,7 @@ struct QuestionView: View {
                 }
             }
             .padding(.horizontal)
+            .redacted(reason: scenePhase == .inactive ? .placeholder : [])
 
             Spacer()
             Spacer()
