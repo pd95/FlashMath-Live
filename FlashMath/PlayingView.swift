@@ -25,11 +25,11 @@ struct PlayingView: View {
             QuestionView()
                 .id(viewModel.questionNumber)
         }
-        .backgroundGradient()
     }
 }
 
 #Preview {
     PlayingView()
+        .backgroundGradient()
         .environment(ViewModel())
 }

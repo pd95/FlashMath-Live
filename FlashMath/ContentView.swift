@@ -11,14 +11,17 @@ struct ContentView: View {
     @Environment(ViewModel.self) var viewModel
     
     var body: some View {
-        switch viewModel.playState {
-        case .menu:
-            MenuView()
-        case .playing:
-            PlayingView()
-        case .gameOver:
-            GameOverView()
+        ZStack {
+            switch viewModel.playState {
+            case .menu:
+                MenuView()
+            case .playing:
+                PlayingView()
+            case .gameOver:
+                GameOverView()
+            }
         }
+        .backgroundGradient()
     }
 }
 

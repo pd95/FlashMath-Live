@@ -35,11 +35,11 @@ struct MenuView: View {
             Spacer()
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .backgroundGradient()
     }
 }
 
 #Preview {
     MenuView()
+        .backgroundGradient()
         .environment(ViewModel())
 }

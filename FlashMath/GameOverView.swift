@@ -20,11 +20,11 @@ struct GameOverView: View {
                 .buttonStyle(.primary)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .backgroundGradient()
     }
 }
 
 #Preview {
     GameOverView()
+        .backgroundGradient()
         .environment(ViewModel())
 }
