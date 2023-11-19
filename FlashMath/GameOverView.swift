@@ -26,5 +26,6 @@ struct GameOverView: View {
 #Preview {
     GameOverView()
         .backgroundGradient()
+        .environment(\.colorScheme, .dark)
         .environment(ViewModel())
 }

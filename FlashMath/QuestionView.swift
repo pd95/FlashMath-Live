@@ -81,5 +81,6 @@ struct QuestionView: View {
 #Preview {
     QuestionView()
         .backgroundGradient()
+        .environment(\.colorScheme, .dark)
         .environment(ViewModel())
 }

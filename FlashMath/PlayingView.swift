@@ -31,5 +31,6 @@ struct PlayingView: View {
 #Preview {
     PlayingView()
         .backgroundGradient()
+        .environment(\.colorScheme, .dark)
         .environment(ViewModel())
 }

@@ -41,5 +41,6 @@ struct MenuView: View {
 #Preview {
     MenuView()
         .backgroundGradient()
+        .environment(\.colorScheme, .dark)
         .environment(ViewModel())
 }
