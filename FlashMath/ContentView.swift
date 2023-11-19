@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @Environment(ViewModel.self) var viewModel
-    
+
     var body: some View {
         ZStack {
             switch viewModel.playState {
@@ -19,6 +19,8 @@ struct ContentView: View {
                 PlayingView()
             case .gameOver:
                 GameOverView()
+            case .settings:
+                SettingsView()
             }
         }
         .backgroundGradient()

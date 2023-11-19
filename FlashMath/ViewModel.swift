@@ -11,14 +11,16 @@ import Foundation
 @dynamicMemberLookup
 class ViewModel {
     enum PlayState {
-        case menu, playing, gameOver
+        case menu, playing, gameOver, settings
     }
+
 
     private(set) var playState = PlayState.menu
 
     var questionNumber = 0
     var question: Question!
-    var timeAllowed = 10.0
+    var level = ExperienceLevel.moderate
+    var timeAllowed = 20.0
 
     let allQuestions: [any Question.Type] = [
         MultipleQuestion.self,
@@ -32,7 +34,10 @@ class ViewModel {
     }
 
     init() {
+        let storedLevel = UserDefaults.standard.integer(forKey: "ExperienceLevel")
+        level = ExperienceLevel(rawValue: storedLevel) ?? .moderate
         nextQuestion()
+        timeAllowed = level.timeAllowed
     }
 
     func nextQuestion() {
@@ -50,19 +55,28 @@ class ViewModel {
     }
 
     func gameOver() {
-        print(#function)
         playState = .gameOver
         UserDefaults.standard.set(questionNumber - 1, forKey: "LastScore")
     }
 
     func start() {
         playState = .playing
-        timeAllowed = 10
+        timeAllowed = level.timeAllowed
         questionNumber = 0
         nextQuestion()
     }
 
     func end() {
+        playState = .menu
+    }
+
+    func settings() {
+        playState = .settings
+    }
+
+    func setLevel(_ newLevel: ExperienceLevel) {
+        level = newLevel
+        timeAllowed = level.timeAllowed
         playState = .menu
     }
 }

@@ -10,29 +10,38 @@ import SwiftUI
 struct MenuView: View {
     @AppStorage("LastScore") private var lastScore = 0
     @Environment(ViewModel.self) var viewModel
-
+    
     var body: some View {
-        VStack {
-            Spacer()
+        ZStack {
+            Button("Settings", systemImage: "gearshape.fill", action: viewModel.settings)
+                .labelStyle(.iconOnly)
+                .font(.largeTitle)
+                .foregroundStyle(.white)
+                .padding(.horizontal)
+                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topTrailing)
 
-            Image(.logo)
-                .clipShape(.rect(cornerRadius: 20))
-                .padding(.bottom, 40)
-                .phaseAnimator([false, true]) { content, phase in
-                    content.shadow(color: .purple, radius: phase ? 20 : 40)
-                } animation: { _ in
-                        .easeInOut(duration: 1)
-                }
+            VStack {
+                Spacer()
 
-            Text("FLASH MATH")
-                .titleStyle()
-            Text("Last Score: \(lastScore)")
-                .subtitleStyle()
-            Button("New Game", action: viewModel.start)
-                .buttonStyle(.primary)
+                Image(.logo)
+                    .clipShape(.rect(cornerRadius: 20))
+                    .padding(.bottom, 40)
+                    .phaseAnimator([false, true]) { content, phase in
+                        content.shadow(color: .purple, radius: phase ? 20 : 40)
+                    } animation: { _ in
+                            .easeInOut(duration: 1)
+                    }
 
-            Spacer()
-            Spacer()
+                Text("FLASH MATH")
+                    .titleStyle()
+                Text("Last Score: \(lastScore)")
+                    .subtitleStyle()
+                Button("New Game", action: viewModel.start)
+                    .buttonStyle(.primary)
+
+                Spacer()
+                Spacer()
+            }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
     }

@@ -22,6 +22,8 @@
 		179964382B09392400034ED7 /* HighestLowestQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179964372B09392400034ED7 /* HighestLowestQuestion.swift */; };
 		1799643A2B093A5900034ED7 /* OperationQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179964392B093A5900034ED7 /* OperationQuestion.swift */; };
 		1799643C2B093E9800034ED7 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 1799643B2B093E9800034ED7 /* Localizable.xcstrings */; };
+		179964402B0A345B00034ED7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1799643F2B0A345B00034ED7 /* SettingsView.swift */; };
+		179964422B0A5EAE00034ED7 /* ExperienceLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179964412B0A5EAE00034ED7 /* ExperienceLevel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,8 @@
 		179964372B09392400034ED7 /* HighestLowestQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighestLowestQuestion.swift; sourceTree = "<group>"; };
 		179964392B093A5900034ED7 /* OperationQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationQuestion.swift; sourceTree = "<group>"; };
 		1799643B2B093E9800034ED7 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		1799643F2B0A345B00034ED7 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		179964412B0A5EAE00034ED7 /* ExperienceLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceLevel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +85,12 @@
 				179964272B09289C00034ED7 /* QuestionView.swift */,
 				1799642D2B092D0B00034ED7 /* Styles.swift */,
 				179964352B0937AA00034ED7 /* Question.swift */,
+				179964412B0A5EAE00034ED7 /* ExperienceLevel.swift */,
 				179964252B09277B00034ED7 /* HowManyMultiplesQuestion.swift */,
 				179964332B09369700034ED7 /* MultipleQuestion.swift */,
 				179964372B09392400034ED7 /* HighestLowestQuestion.swift */,
 				179964392B093A5900034ED7 /* OperationQuestion.swift */,
+				1799643F2B0A345B00034ED7 /* SettingsView.swift */,
 				179964292B0929E600034ED7 /* ViewModel.swift */,
 				1799641B2B0926E400034ED7 /* Assets.xcassets */,
 				1799643B2B093E9800034ED7 /* Localizable.xcstrings */,
@@ -165,11 +171,13 @@
 			files = (
 				1799642A2B0929E600034ED7 /* ViewModel.swift in Sources */,
 				179964302B09332500034ED7 /* MenuView.swift in Sources */,
+				179964422B0A5EAE00034ED7 /* ExperienceLevel.swift in Sources */,
 				1799642E2B092D0B00034ED7 /* Styles.swift in Sources */,
 				179964282B09289C00034ED7 /* QuestionView.swift in Sources */,
 				1799641A2B0926E300034ED7 /* ContentView.swift in Sources */,
 				1799642C2B092C4500034ED7 /* PlayingView.swift in Sources */,
 				179964262B09277B00034ED7 /* HowManyMultiplesQuestion.swift in Sources */,
+				179964402B0A345B00034ED7 /* SettingsView.swift in Sources */,
 				179964342B09369700034ED7 /* MultipleQuestion.swift in Sources */,
 				179964382B09392400034ED7 /* HighestLowestQuestion.swift in Sources */,
 				179964322B09338800034ED7 /* GameOverView.swift in Sources */,

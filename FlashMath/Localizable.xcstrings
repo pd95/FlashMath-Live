@@ -1,6 +1,12 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "Difficult" : {
+      "comment" : "Label for experience level"
+    },
+    "Easy" : {
+      "comment" : "Label for experience level"
+    },
     "End Game" : {
       "localizations" : {
         "de" : {
@@ -77,6 +83,9 @@
         }
       }
     },
+    "Moderate" : {
+      "comment" : "Label for experience level"
+    },
     "Multiple of %lld?" : {
       "localizations" : {
         "de" : {
@@ -116,6 +125,12 @@
           }
         }
       }
+    },
+    "Select your difficulty:" : {
+
+    },
+    "Settings" : {
+
     },
     "You scored: %lld." : {
       "localizations" : {
