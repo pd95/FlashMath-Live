@@ -21,25 +21,28 @@ struct QuestionView: View {
     }
 
     var body: some View {
-        VStack {
+        VStack(spacing: 0) {
             Spacer()
 
-            Text("Question \(viewModel.questionNumber)")
-                .fontDesign(.rounded)
-                .fontWeight(.black)
+            VStack {
+                Text("Question \(viewModel.questionNumber)")
+                    .fontDesign(.rounded)
+                    .fontWeight(.black)
 
-            Text(viewModel.questionText)
-                .multilineTextAlignment(.center)
-                .font(.largeTitle)
+                Text(viewModel.questionText)
+                    .multilineTextAlignment(.center)
+                    .font(.largeTitle)
 
-            ForEach(0..<viewModel.allAnswers.count, id: \.self) { i in
-                Button {
-                    select(viewModel.allAnswers[i])
-                } label: {
-                    Text(viewModel.allAnswers[i].formatted())
+                ForEach(0..<viewModel.allAnswers.count, id: \.self) { i in
+                    Button {
+                        select(viewModel.allAnswers[i])
+                    } label: {
+                        Text(viewModel.allAnswers[i].formatted())
+                    }
+                    .buttonStyle(.question(color: colors[i]))
                 }
-                .buttonStyle(.question(color: colors[i]))
             }
+            .padding(.horizontal)
 
             Spacer()
             Spacer()
@@ -58,7 +61,6 @@ struct QuestionView: View {
                     .blendMode(.difference)
             }
         }
-        .padding(.horizontal)
         .onReceive(timer) { time in
             timeUsed += 1 / 30
 

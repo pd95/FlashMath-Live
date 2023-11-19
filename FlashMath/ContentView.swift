@@ -22,6 +22,7 @@ struct ContentView: View {
             }
         }
         .backgroundGradient()
+        .animation(.spring, value: viewModel.playState)
     }
 }
 
