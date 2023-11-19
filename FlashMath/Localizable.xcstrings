@@ -2,10 +2,26 @@
   "sourceLanguage" : "en",
   "strings" : {
     "Difficult" : {
-      "comment" : "Label for experience level"
+      "comment" : "Label for experience level",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schwer"
+          }
+        }
+      }
     },
     "Easy" : {
-      "comment" : "Label for experience level"
+      "comment" : "Label for experience level",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leicht"
+          }
+        }
+      }
     },
     "End Game" : {
       "localizations" : {
@@ -84,7 +100,15 @@
       }
     },
     "Moderate" : {
-      "comment" : "Label for experience level"
+      "comment" : "Label for experience level",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mittel"
+          }
+        }
+      }
     },
     "Multiple of %lld?" : {
       "localizations" : {
@@ -127,10 +151,24 @@
       }
     },
     "Select your difficulty:" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schwierigkeitsgrad:"
+          }
+        }
+      }
     },
     "Settings" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einstellungen"
+          }
+        }
+      }
     },
     "You scored: %lld." : {
       "localizations" : {
