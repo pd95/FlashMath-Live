@@ -10,7 +10,6 @@
 		179964182B0926E300034ED7 /* FlashMathApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179964172B0926E300034ED7 /* FlashMathApp.swift */; };
 		1799641A2B0926E300034ED7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179964192B0926E300034ED7 /* ContentView.swift */; };
 		1799641C2B0926E400034ED7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1799641B2B0926E400034ED7 /* Assets.xcassets */; };
-		1799641F2B0926E400034ED7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1799641E2B0926E400034ED7 /* Preview Assets.xcassets */; };
 		179964262B09277B00034ED7 /* HowManyMultiplesQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179964252B09277B00034ED7 /* HowManyMultiplesQuestion.swift */; };
 		179964282B09289C00034ED7 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179964272B09289C00034ED7 /* QuestionView.swift */; };
 		1799642A2B0929E600034ED7 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179964292B0929E600034ED7 /* ViewModel.swift */; };
@@ -30,7 +29,6 @@
 		179964172B0926E300034ED7 /* FlashMathApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashMathApp.swift; sourceTree = "<group>"; };
 		179964192B0926E300034ED7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1799641B2B0926E400034ED7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1799641E2B0926E400034ED7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		179964252B09277B00034ED7 /* HowManyMultiplesQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowManyMultiplesQuestion.swift; sourceTree = "<group>"; };
 		179964272B09289C00034ED7 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		179964292B0929E600034ED7 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
@@ -90,17 +88,8 @@
 				1799642B2B092C4500034ED7 /* PlayingView.swift */,
 				1799641B2B0926E400034ED7 /* Assets.xcassets */,
 				1799643B2B093E9800034ED7 /* Localizable.xcstrings */,
-				1799641D2B0926E400034ED7 /* Preview Content */,
 			);
 			path = FlashMath;
-			sourceTree = "<group>";
-		};
-		1799641D2B0926E400034ED7 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				1799641E2B0926E400034ED7 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,7 +151,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1799641F2B0926E400034ED7 /* Preview Assets.xcassets in Resources */,
 				1799641C2B0926E400034ED7 /* Assets.xcassets in Resources */,
 				1799643C2B093E9800034ED7 /* Localizable.xcstrings in Resources */,
 			);
@@ -322,7 +310,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FlashMath/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -350,7 +337,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FlashMath/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
